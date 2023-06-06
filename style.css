@@ -1,0 +1,88 @@
+body {
+    background-color: #305c80;
+  }
+  @media (min-width: 30em) {
+    body {
+      background-color:#305c80;
+      /* margin-left: 150px; */
+    }
+  }
+
+#analyze_method{
+    background : #fff;
+    width : 200px;
+    margin : 10px;
+    font-size: 25px;
+
+}
+#team_list{
+    background: #fff;
+    width : 200px;
+    margin : 10px;
+    font-size: 25px;
+    
+}
+#year_list{
+    background: #fff;
+    width : 200px;
+    margin : 10px;
+    font-size: 25px;
+    
+}
+
+p{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#season_list{
+    background: #bfc3be;
+    width : 200px;
+    margin : 10px;
+    font-size: 25px;
+}
+.total{
+    display: flex;
+    justify-content: center;
+}
+
+.x line{
+    stroke: #1B4965;
+}
+
+/* interactive 詳細資訊視窗設定 */
+.tooltip-team{
+    position: fixed;    /*位置是固定的*/
+    opacity: 0;         /*透明度設為0*/
+    pointer-events: none; /*避免出現連結或其他預設行為*/
+    background: #262c79;
+    max-width: 200px;
+}
+/* rem代表相對於整個畫面，以比例縮放 */
+.tip-header-team{
+    border-bottom: 2px solid white;
+    padding: 0.5rem 1rem;
+}
+.tip-body-team{
+    padding: 0.1rem 0;
+}
+
+h3,h4{
+    font-size: 1.2rem;
+    color:#7a8ba5;
+    margin: 0;
+}
+
+h4{
+    font-weight: normal;
+}
+.tip-info-team{
+    margin: 0;
+    padding: 0.5rem 1em;
+    font-size: 1em;
+}
+/*偶數元素設定不同背景樣式*/
+.tip-info-team:nth-of-type(even){
+    background: #254c8f;
+}

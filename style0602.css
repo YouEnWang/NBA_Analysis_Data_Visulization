@@ -1,0 +1,56 @@
+body {
+    background-color: #305c80;
+  }
+  @media (min-width: 30em) {
+    body {
+      background-color:#305c80;
+    }
+  }
+  
+#analyze_method{
+    background : #EDEA2A;
+    width : 200px;
+    margin : 10px;
+    font-size: 25px;
+    box-shadow: h-shadow v-shadow blur spread color inset;
+    box-shadow: 10px 0px 0px #D8D525 ;
+    
+
+}
+#team_list{
+    background: #EDEA2A;
+    width : 200px;
+    margin : 10px;
+    font-size: 25px;
+    box-shadow: h-shadow v-shadow blur spread color inset;
+    box-shadow: 10px 0px 0px #D8D525 ;
+    
+}
+#year_list{
+    background: #EDEA2A;
+    width : 200px;
+    margin : 10px;
+    font-size: 25px;
+    box-shadow: h-shadow v-shadow blur spread color inset;
+    box-shadow: 10px 0px 0px #D8D525 ;
+    
+}
+
+p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+#season_list{
+    background: #EDEA2A;
+    width : 200px;
+    margin : 10px;
+    font-size: 25px;
+    box-shadow: h-shadow v-shadow blur spread color inset;
+    box-shadow: 10px 0px 0px #D8D525 ;
+}
+.total{
+    display: flex;
+    justify-content: center;
+}
